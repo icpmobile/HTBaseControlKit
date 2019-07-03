@@ -104,7 +104,7 @@
 
 /* Begin PBXFileReference section */
 		011972CDE1482B24691825FBDED5AA25 /* UIColor+Web.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Web.h"; path = "HTCategoryKit/Classes/UIKit/UIColor/UIColor+Web.h"; sourceTree = "<group>"; };
-		05D594DC33EC889D7A7319BFA029851B /* Pods_HTBaseControlKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HTBaseControlKit_Example.framework; path = "Pods-HTBaseControlKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05D594DC33EC889D7A7319BFA029851B /* Pods_HTBaseControlKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HTBaseControlKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		065CBDDA6AF59D68FCBC058E39A41F5F /* HTCategoryKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTCategoryKit-umbrella.h"; sourceTree = "<group>"; };
 		0F2135584EF4BD7DD7E192B3F9491F80 /* HTUIKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HTUIKit.modulemap; sourceTree = "<group>"; };
 		187E2C06450AD0902CE8E67555FD8C12 /* UIColor+Gradient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Gradient.m"; path = "HTCategoryKit/Classes/UIKit/UIColor/UIColor+Gradient.m"; sourceTree = "<group>"; };
@@ -120,15 +120,15 @@
 		3E8A1FA64666D72FDA5B6FC635ED863F /* Pods-HTBaseControlKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HTBaseControlKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		42759AB9C964123B4F64A83801EE69F3 /* Pods-HTBaseControlKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HTBaseControlKit_Example-Info.plist"; sourceTree = "<group>"; };
 		43FE54B1FB264DE78DE15B24BA919440 /* UIColor+Random.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Random.m"; path = "HTCategoryKit/Classes/UIKit/UIColor/UIColor+Random.m"; sourceTree = "<group>"; };
-		45AC60CF6252F533A07AC5913281C549 /* HTBaseControlKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HTBaseControlKit.framework; path = HTBaseControlKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		46920E5133E1428EBA1D12A01F8AC478 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		45AC60CF6252F533A07AC5913281C549 /* HTBaseControlKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HTBaseControlKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46920E5133E1428EBA1D12A01F8AC478 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		46F4CD5F88664A33FB002AEF35FCD075 /* HTBaseControlKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTBaseControlKit-prefix.pch"; sourceTree = "<group>"; };
 		4A8DFC4135BD40E4A26A8C84FD326B60 /* Pods-HTBaseControlKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HTBaseControlKit_Example-dummy.m"; sourceTree = "<group>"; };
 		4AB00907738AB26A46A9FD84F52FE1BF /* HTUIKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTUIKit-prefix.pch"; sourceTree = "<group>"; };
-		53EBBC60665986419CF52A76549A6ED4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		53EBBC60665986419CF52A76549A6ED4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		54C4993BCF1A624D3975260EAC723078 /* HTBaseControlKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HTBaseControlKit-Info.plist"; sourceTree = "<group>"; };
 		5F2DA915CE501B2BA458C929281D5B1A /* HTCategoryKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTCategoryKit-prefix.pch"; sourceTree = "<group>"; };
-		5FBDE09DD9295F1A298A5FD39F05BF1D /* HTCategoryKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HTCategoryKit.framework; path = HTCategoryKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FBDE09DD9295F1A298A5FD39F05BF1D /* HTCategoryKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HTCategoryKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		619B3C628925FE5C75CE4CF89B248079 /* Pods-HTBaseControlKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HTBaseControlKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		6455E532C5EFC8F53058632D14DE8431 /* HTCategoryKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HTCategoryKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		66CBD30A080B4F53F2B1CD0864B581CD /* UIColor+Gradient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Gradient.h"; path = "HTCategoryKit/Classes/UIKit/UIColor/UIColor+Gradient.h"; sourceTree = "<group>"; };
@@ -138,7 +138,7 @@
 		730C2283465EEAE386782D9FD15FD712 /* HTBaseVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTBaseVC.m; path = HTBaseControlKit/Classes/HTBaseVC.m; sourceTree = "<group>"; };
 		73FC92E2AD1ABDF3D228B356CBAE379F /* HTUIKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTUIKit-umbrella.h"; sourceTree = "<group>"; };
 		779FA5D6BCB5AE766E653282689CD98C /* WRCustomNavigationBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WRCustomNavigationBar.h; path = HTUIKit/Classes/WRNavigationBar/WRCustomNavigationBar.h; sourceTree = "<group>"; };
-		787416C3BE74EA60923732992ED7D36F /* Pods_HTBaseControlKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HTBaseControlKit_Tests.framework; path = "Pods-HTBaseControlKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		787416C3BE74EA60923732992ED7D36F /* Pods_HTBaseControlKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HTBaseControlKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		79587080D7AFD4432AD9CE2CF7DEF07E /* HTUIKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HTUIKit-dummy.m"; sourceTree = "<group>"; };
 		7BC384D24E986773F83500E72CBA614F /* WRCustomNavigationBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WRCustomNavigationBar.m; path = HTUIKit/Classes/WRNavigationBar/WRCustomNavigationBar.m; sourceTree = "<group>"; };
 		849CFFE766F3A5123C1FC58B7821BF06 /* WRNavigationBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WRNavigationBar.m; path = HTUIKit/Classes/WRNavigationBar/WRNavigationBar.m; sourceTree = "<group>"; };
@@ -149,15 +149,15 @@
 		90ACC0A72EF11BD2351AA3BB6641073F /* HTNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTNavigationController.h; path = HTBaseControlKit/Classes/HTNavigationController.h; sourceTree = "<group>"; };
 		90E1D0B587A955B150B4B8C2B1D988D4 /* UIColor+Modify.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Modify.m"; path = "HTCategoryKit/Classes/UIKit/UIColor/UIColor+Modify.m"; sourceTree = "<group>"; };
 		9AD634DF5B669E84057EF3A5B99DFD42 /* HTNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTNavigationController.m; path = HTBaseControlKit/Classes/HTNavigationController.m; sourceTree = "<group>"; };
-		9B47FA9B7C64E76BBC6AACF059ABF3AF /* HTBaseControlKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HTBaseControlKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B47FA9B7C64E76BBC6AACF059ABF3AF /* HTBaseControlKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = HTBaseControlKit.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		9D5D8103EB3A2FE46E7C03C216174D82 /* ht_basecontrol_navback@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ht_basecontrol_navback@3x.png"; path = "HTBaseControlKit/Assets/ht_basecontrol_navback@3x.png"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A26E96646977059487D06455B6CCBE56 /* UIColor+Web.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Web.m"; path = "HTCategoryKit/Classes/UIKit/UIColor/UIColor+Web.m"; sourceTree = "<group>"; };
-		A6CFD2658921AB7A31E41752A42DCC38 /* HTUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HTUIKit.framework; path = HTUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6CFD2658921AB7A31E41752A42DCC38 /* HTUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HTUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A87D2CF88CAA334AEE82DB730F645782 /* Pods-HTBaseControlKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HTBaseControlKit_Tests.modulemap"; sourceTree = "<group>"; };
 		B3FBA750F5F293CB54FF3B2EB0F5E62C /* Pods-HTBaseControlKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HTBaseControlKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B959B252DB5E8E5F17FD150252E505C2 /* HTBaseControlKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HTBaseControlKit.modulemap; sourceTree = "<group>"; };
-		BDA2DE26D71BE209BE00EE85C20087CD /* HTBaseControlKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = HTBaseControlKit.bundle; path = "HTBaseControlKit-HTBaseControlKit.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDA2DE26D71BE209BE00EE85C20087CD /* HTBaseControlKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HTBaseControlKit.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDA5FBFB9B833C257111FC7CC84A218B /* ResourceBundle-HTBaseControlKit-HTBaseControlKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-HTBaseControlKit-HTBaseControlKit-Info.plist"; sourceTree = "<group>"; };
 		C269BC4BC98EA0F2C948A2A517A5A0C3 /* Pods-HTBaseControlKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HTBaseControlKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C56364F7DC60EB4BB866BE82F95A9930 /* UIColor+flat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+flat.h"; path = "HTCategoryKit/Classes/UIKit/UIColor/UIColor+flat.h"; sourceTree = "<group>"; };
@@ -304,7 +304,6 @@
 				9613459C386BD2BE4CFE6C9B3BBB9BF3 /* Support Files */,
 				358E171B73719E5BEC4A835470069070 /* WRNavigationBar */,
 			);
-			name = HTUIKit;
 			path = HTUIKit;
 			sourceTree = "<group>";
 		};
@@ -373,7 +372,6 @@
 				10B9B6E73AE49FBC3C0850EFDED1BF02 /* Support Files */,
 				52CFA86175C6FB3261E3271450054DD1 /* UIKit */,
 			);
-			name = HTCategoryKit;
 			path = HTCategoryKit;
 			sourceTree = "<group>";
 		};
@@ -652,6 +650,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
@@ -1181,8 +1180,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};

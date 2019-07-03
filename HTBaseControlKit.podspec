@@ -30,6 +30,9 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
+  s.user_target_xcconfig = { 'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES' }
+
+  
   s.source_files = 'HTBaseControlKit/Classes/**/*'
   
    s.resource_bundles = {

@@ -505,6 +505,7 @@
 			baseConfigurationReference = D89B8E063DDEAE0D48ED002B /* Pods-HTBaseControlKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				DEVELOPMENT_TEAM = S58Y7NKA46;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HTBaseControlKit/HTBaseControlKit-Prefix.pch";
@@ -523,6 +524,7 @@
 			baseConfigurationReference = 0DCD19698D9B2165BD0F2239 /* Pods-HTBaseControlKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				DEVELOPMENT_TEAM = S58Y7NKA46;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HTBaseControlKit/HTBaseControlKit-Prefix.pch";
