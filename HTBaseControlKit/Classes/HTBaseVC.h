@@ -9,8 +9,7 @@
 //  Github地址：https://github.com/wangrui460/WRNavigationBar
 
 #import <UIKit/UIKit.h>
-
-@class WRCustomNavigationBar;
+#import "WRCustomNavigationBar.h"
 
 @interface HTBaseVC : UIViewController
 
