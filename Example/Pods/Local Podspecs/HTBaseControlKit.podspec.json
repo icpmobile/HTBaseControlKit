@@ -1,0 +1,35 @@
+{
+  "name": "HTBaseControlKit",
+  "version": "0.1.0",
+  "summary": "ICP-Mobile项目 基础控件组件  HTBaseControlKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/icpmobile/HTBaseControlKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zhanglianjiang": "zhanglianjaing@hoteamsoft.com"
+  },
+  "source": {
+    "git": "https://github.com/icpmobile/HTBaseControlKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "HTBaseControlKit/Classes/**/*",
+  "resource_bundles": {
+    "HTBaseControlKit": [
+      "HTBaseControlKit/Assets/*.png"
+    ]
+  },
+  "dependencies": {
+    "HTUIKit/WRNavigationBar": [
+
+    ],
+    "HTCategoryKit/UIKit/UIColor": [
+
+    ]
+  }
+}

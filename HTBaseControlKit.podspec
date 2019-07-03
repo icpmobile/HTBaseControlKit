@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'HTBaseControlKit'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of HTBaseControlKit.'
+  s.summary          = 'ICP-Mobile项目 基础控件组件  HTBaseControlKit.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,22 +21,30 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/zhanglianjiang/HTBaseControlKit'
+  s.homepage         = 'https://github.com/icpmobile/HTBaseControlKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'zhanglianjiang' => 'zhanglianjaing@hoteamsoft.com' }
-  s.source           = { :git => 'https://github.com/zhanglianjiang/HTBaseControlKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/icpmobile/HTBaseControlKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'HTBaseControlKit/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'HTBaseControlKit' => ['HTBaseControlKit/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'HTBaseControlKit' => ['HTBaseControlKit/Assets/*.png']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  
+  s.dependency 'HTUIKit/WRNavigationBar'
+
+  s.dependency 'HTCategoryKit/UIKit/UIColor'
+  
+  
+  
+  
 end

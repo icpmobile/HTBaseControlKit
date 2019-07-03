@@ -41,7 +41,7 @@
 		0DCD19698D9B2165BD0F2239 /* Pods-HTBaseControlKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTBaseControlKit_Example.release.xcconfig"; path = "Target Support Files/Pods-HTBaseControlKit_Example/Pods-HTBaseControlKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		1365740381741C15228F0466 /* Pods_HTBaseControlKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HTBaseControlKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AB016854749EA2D7306C41D /* Pods-HTBaseControlKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTBaseControlKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-HTBaseControlKit_Tests/Pods-HTBaseControlKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		2E29154AA129C08ED2A78D33 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2E29154AA129C08ED2A78D33 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* HTBaseControlKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HTBaseControlKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,11 +62,11 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8656C7F0C0F2E5A4C9F13A0A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		8656C7F0C0F2E5A4C9F13A0A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B6289C49C9581DBFCF4CEE51 /* Pods_HTBaseControlKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HTBaseControlKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D89B8E063DDEAE0D48ED002B /* Pods-HTBaseControlKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTBaseControlKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-HTBaseControlKit_Example/Pods-HTBaseControlKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F9631274A5DACF7A1F34C3D9 /* HTBaseControlKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HTBaseControlKit.podspec; path = ../HTBaseControlKit.podspec; sourceTree = "<group>"; };
+		F9631274A5DACF7A1F34C3D9 /* HTBaseControlKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HTBaseControlKit.podspec; path = ../HTBaseControlKit.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				1AB016854749EA2D7306C41D /* Pods-HTBaseControlKit_Tests.debug.xcconfig */,
 				0A65E62E92FDECFF09F40273 /* Pods-HTBaseControlKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = zhanglianjiang;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = S58Y7NKA46;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +260,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -327,12 +330,16 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-HTBaseControlKit_Example/Pods-HTBaseControlKit_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/HTBaseControlKit/HTBaseControlKit.framework",
+				"${BUILT_PRODUCTS_DIR}/HTCategoryKit/HTCategoryKit.framework",
+				"${BUILT_PRODUCTS_DIR}/HTUIKit/HTUIKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HTBaseControlKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HTCategoryKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HTUIKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -453,7 +460,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -486,7 +493,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -498,10 +505,12 @@
 			baseConfigurationReference = D89B8E063DDEAE0D48ED002B /* Pods-HTBaseControlKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S58Y7NKA46;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HTBaseControlKit/HTBaseControlKit-Prefix.pch";
 				INFOPLIST_FILE = "HTBaseControlKit/HTBaseControlKit-Info.plist";
 				MODULE_NAME = ExampleApp;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -514,10 +523,12 @@
 			baseConfigurationReference = 0DCD19698D9B2165BD0F2239 /* Pods-HTBaseControlKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S58Y7NKA46;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HTBaseControlKit/HTBaseControlKit-Prefix.pch";
 				INFOPLIST_FILE = "HTBaseControlKit/HTBaseControlKit-Info.plist";
 				MODULE_NAME = ExampleApp;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;

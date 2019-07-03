@@ -1,0 +1,6 @@
+framework module HTUIKit {
+  umbrella header "HTUIKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

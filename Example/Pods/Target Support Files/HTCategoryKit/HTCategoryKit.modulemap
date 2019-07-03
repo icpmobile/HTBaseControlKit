@@ -1,0 +1,6 @@
+framework module HTCategoryKit {
+  umbrella header "HTCategoryKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

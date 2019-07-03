@@ -1,6 +1,15 @@
+
+
+#私有索引库
+source ‘https://github.com/icpmobile/ICPMSpecs.git’
+#CocoaPods 公共索引库
+source ‘https://github.com/CocoaPods/Specs.git’
+
+
+
 use_frameworks!
 
-platform :ios, '8.0'
+platform :ios, '9.0'
 
 target 'HTBaseControlKit_Example' do
   pod 'HTBaseControlKit', :path => '../'

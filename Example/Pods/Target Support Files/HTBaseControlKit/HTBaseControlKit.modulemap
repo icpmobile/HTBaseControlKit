@@ -1,0 +1,6 @@
+framework module HTBaseControlKit {
+  umbrella header "HTBaseControlKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
