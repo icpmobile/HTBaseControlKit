@@ -9,6 +9,7 @@
 
 #import "HTBaseVC.h"
 #import "WRNavigationBar.h"
+#import "WRCustomNavigationBar.h"
 #import "UIColor+flat.h"
 
 
