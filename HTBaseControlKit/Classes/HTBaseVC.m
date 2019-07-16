@@ -34,8 +34,9 @@
     
     NSInteger scale = [[UIScreen mainScreen] scale];
     
-    NSBundle *bundle = [NSBundle bundleForClass:[self class]];
-    NSString *bgImgStr = [bundle pathForResource:@"ht_basecontrol_navbg@2x.png" ofType:nil  inDirectory:@"HTBaseControlKit.bundle"];
+    NSBundle *bundle = [NSBundle bundleForClass:[HTBaseVC class]];
+    
+    NSString *bgImgStr =[bundle pathForResource:@"ht_basecontrol_navbg@2x.png" ofType:nil  inDirectory:@"HTBaseControlKit.bundle"];
     
     self.customNavBar.barBackgroundImage = [UIImage imageWithContentsOfFile:bgImgStr];
     // 设置自定义导航栏标题颜色

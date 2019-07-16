@@ -6,8 +6,8 @@
 //  Copyright (c) 2019 zhanglianjiang. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "HTBaseVC.h"
 
-@interface HTViewController : UIViewController
+@interface HTViewController : HTBaseVC
 
 @end

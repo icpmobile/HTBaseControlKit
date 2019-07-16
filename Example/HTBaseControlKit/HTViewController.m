@@ -17,7 +17,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
+    self.customNavBar.title = @"测试";
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
