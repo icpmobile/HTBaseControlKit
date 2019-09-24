@@ -1,14 +1,19 @@
 PODS:
-  - HTBaseControlKit (0.1.0):
+  - HTBaseControlKit (0.1.2):
     - HTCategoryKit/UIKit/UIColor
     - HTUIKit/WRNavigationBar
-  - HTCategoryKit/UIKit/UIColor (0.1.1)
-  - HTUIKit/WRNavigationBar (0.1.5)
+    - SDAutoLayout
+  - HTCategoryKit/UIKit/UIColor (0.1.4)
+  - HTUIKit/WRNavigationBar (0.1.16):
+    - SDAutoLayout
+  - SDAutoLayout (2.2.1)
 
 DEPENDENCIES:
   - HTBaseControlKit (from `../`)
 
 SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - SDAutoLayout
   https://github.com/icpmobile/ICPMSpecs.git:
     - HTCategoryKit
     - HTUIKit
@@ -18,10 +23,11 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  HTBaseControlKit: c4ddbab7ddd7cf4a94bb227d6e159706adc624a2
-  HTCategoryKit: 3cf2642fc1d2b4046bbd87e33275fd330a797cd1
-  HTUIKit: 2cf84a9db595d5a14155097dfa2cb1334493791e
+  HTBaseControlKit: 3514052c5a55016a9f0c642dac93b8c87cda232c
+  HTCategoryKit: fcf953631fb7a5e18e790590a0afe3d5fcc21ca4
+  HTUIKit: 4aaa87a403016ab7389a4c7de363823d6425713a
+  SDAutoLayout: 8bf6b3bbc8b01f775d4defbb4fda2ace805461be
 
 PODFILE CHECKSUM: cb64aa83459608deea155f527d54ce617db3d897
 
-COCOAPODS: 1.6.1
+COCOAPODS: 1.8.0

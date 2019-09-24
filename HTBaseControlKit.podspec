@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HTBaseControlKit'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'ICP-Mobile项目 基础控件组件  HTBaseControlKit.'
 
 # This description is used to generate tags and improve search results.
@@ -44,11 +44,12 @@ TODO: Add long description of the pod here.
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
   
+  s.dependency 'SDAutoLayout'
+  
   s.dependency 'HTUIKit/WRNavigationBar'
 
   s.dependency 'HTCategoryKit/UIKit/UIColor'
-  
-  
+
   
   
 end

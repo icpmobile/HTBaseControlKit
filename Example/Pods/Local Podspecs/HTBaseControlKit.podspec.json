@@ -1,6 +1,6 @@
 {
   "name": "HTBaseControlKit",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "summary": "ICP-Mobile项目 基础控件组件  HTBaseControlKit.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/icpmobile/HTBaseControlKit",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/icpmobile/HTBaseControlKit.git",
-    "tag": "0.1.0"
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "9.0"
@@ -28,6 +28,9 @@
     ]
   },
   "dependencies": {
+    "SDAutoLayout": [
+
+    ],
     "HTUIKit/WRNavigationBar": [
 
     ],

@@ -12,6 +12,8 @@
 #import "WRCustomNavigationBar.h"
 #import "UIColor+flat.h"
 
+#import "UIView+SDAutoLayout.h"
+
 
 @interface HTBaseVC ()
 @end
@@ -30,8 +32,11 @@
 - (void)setupNavBar
 {
     [self.view addSubview:self.customNavBar];
+    self.customNavBar.sd_layout.topEqualToView(self.view)
+                        .leftEqualToView(self.view)
+                        .rightEqualToView(self.view)
+                        .heightIs([self.customNavBar navBarHeight]);
     // 设置自定义导航栏背景图片
-    
     NSInteger scale = [[UIScreen mainScreen] scale];
     
     NSBundle *bundle = [NSBundle bundleForClass:[HTBaseVC class]];
@@ -47,6 +52,12 @@
         NSString *backImg = [NSString stringWithFormat:@"ht_basecontrol_navback@%zdx.png",scale];
         NSString *backImgStr = [bundle pathForResource:backImg ofType:nil  inDirectory:@"HTBaseControlKit.bundle"];
         [self.customNavBar wr_setLeftButtonWithImage:[UIImage imageWithContentsOfFile:backImgStr]];
+        
+         __weak typeof(self) weakSelf = self;
+        self.customNavBar.onClickLeftButton = ^{
+            __strong typeof(weakSelf) strongSelf = weakSelf;
+            [strongSelf.navigationController popViewControllerAnimated:YES];
+        };
     }
     
     [WRNavigationBar wr_setBlacklist:@[@"SpecialController",
@@ -60,7 +71,9 @@
 - (WRCustomNavigationBar *)customNavBar
 {
     if (_customNavBar == nil) {
-        _customNavBar = [WRCustomNavigationBar CustomNavigationBar];
+//        _customNavBar = [WRCustomNavigationBar CustomNavigationBar];
+        _customNavBar = [[WRCustomNavigationBar alloc] init];
+        
     }
     return _customNavBar;
 }

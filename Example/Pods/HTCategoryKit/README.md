@@ -1,7 +1,5 @@
 # HTCategoryKit
-<<<<<<< HEAD
 ICP-Mobile 项目 基础分类组件
-=======
 
 [![CI Status](https://img.shields.io/travis/zhanglianjiang/HTCategoryKit.svg?style=flat)](https://travis-ci.org/zhanglianjiang/HTCategoryKit)
 [![Version](https://img.shields.io/cocoapods/v/HTCategoryKit.svg?style=flat)](https://cocoapods.org/pods/HTCategoryKit)
@@ -30,4 +28,3 @@ zhanglianjiang, zhanglianjaing@hoteamsoft.com
 ## License
 
 HTCategoryKit is available under the MIT license. See the LICENSE file for more info.
->>>>>>> Initial commit

@@ -10,6 +10,8 @@
 #import "WRCustomNavigationBar.h"
 #import "sys/utsname.h"
 
+#import "UIView+SDAutoLayout.h"
+
 #define kWRDefaultTitleSize 18
 #define kWRDefaultTitleColor [UIColor blackColor]
 #define kWRDefaultBackgroundColor [UIColor whiteColor]
@@ -106,12 +108,39 @@
     NSInteger titleLabelHeight = 44;
     NSInteger titleLabelWidth = 180;
 
-    self.backgroundView.frame = self.bounds;
-    self.backgroundImageView.frame = self.bounds;
-    self.leftButton.frame = CGRectMake(margin, top, buttonWidth, buttonHeight);
-    self.rightButton.frame = CGRectMake(kWRScreenWidth - buttonWidth - margin, top, buttonWidth, buttonHeight);
-    self.titleLable.frame = CGRectMake((kWRScreenWidth - titleLabelWidth) / 2, top, titleLabelWidth, titleLabelHeight);
-    self.bottomLine.frame = CGRectMake(0, (CGFloat)(self.bounds.size.height-0.5), kWRScreenWidth, 0.5);
+//    self.backgroundView.frame = self.bounds;
+//    self.backgroundImageView.frame = self.bounds;
+//    self.leftButton.frame = CGRectMake(margin, top, buttonWidth, buttonHeight);
+//    self.rightButton.frame = CGRectMake(kWRScreenWidth - buttonWidth - margin, top, buttonWidth, buttonHeight);
+//    self.titleLable.frame = CGRectMake((kWRScreenWidth - titleLabelWidth) / 2, top, titleLabelWidth, titleLabelHeight);
+//    self.bottomLine.frame = CGRectMake(0, (CGFloat)(self.bounds.size.height-0.5), kWRScreenWidth, 0.5);
+    
+    self.backgroundView.sd_layout.topEqualToView(self)
+                .leftEqualToView(self)
+                .rightEqualToView(self)
+                .bottomEqualToView(self);
+    self.backgroundImageView.sd_layout.topEqualToView(self)
+                .leftEqualToView(self)
+                .rightEqualToView(self)
+                .bottomEqualToView(self);
+    self.leftButton.sd_layout.topSpaceToView(self, top)
+                .leftSpaceToView(self, margin)
+                .widthIs(buttonWidth)
+                .heightIs(buttonHeight);
+    self.rightButton.sd_layout.topSpaceToView(self, top)
+                .widthIs(buttonWidth)
+                .heightIs(buttonHeight)
+                .rightSpaceToView(self, margin);
+    self.titleLable.sd_layout.topSpaceToView(self, top)
+                .widthIs(titleLabelWidth)
+                .heightIs(titleLabelHeight)
+                .centerXEqualToView(self);
+    self.bottomLine.sd_layout.leftEqualToView(self)
+                .rightEqualToView(self)
+                .heightIs(0.5)
+                .bottomSpaceToView(self, 0.5);
+    
+    
 }
 
 #pragma mark - 导航栏左右按钮事件
@@ -289,10 +318,12 @@
     NSString *platform = [NSString stringWithCString:systemInfo.machine encoding:NSASCIIStringEncoding];
     if ([platform isEqualToString:@"i386"] || [platform isEqualToString:@"x86_64"]) {
         // judgment by height when in simulators
-        return (CGSizeEqualToSize([UIScreen mainScreen].bounds.size, CGSizeMake(375, 812)) ||
-                CGSizeEqualToSize([UIScreen mainScreen].bounds.size, CGSizeMake(812, 375)));
+        // 获取模拟器所对应的 device model
+        NSString *model = NSProcessInfo.processInfo.environment[@"SIMULATOR_MODEL_IDENTIFIER"];
+
+        return [model isEqualToString:@"iPhone10,3"] || [model isEqualToString:@"iPhone10,6"] || [model hasPrefix:@"iPhone11,"];
     }
-    BOOL isIPhoneX = [platform isEqualToString:@"iPhone10,3"] || [platform isEqualToString:@"iPhone10,6"];
+    BOOL isIPhoneX = [platform isEqualToString:@"iPhone10,3"] || [platform isEqualToString:@"iPhone10,6"]|| [platform isEqualToString:@"iPhone11,8"]|| [platform isEqualToString:@"iPhone11,2"]|| [platform isEqualToString:@"iPhone11,4"]|| [platform isEqualToString:@"iPhone11,6"]||[platform hasPrefix:@"iPhone11,"];
     return isIPhoneX;
 }
 
